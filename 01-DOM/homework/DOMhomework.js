@@ -9,7 +9,7 @@ const toDoItems = [];
 // Tu código acá:
 
 const createdBy = document.querySelector('#createdBy');
-createdBy.innerHTML += ' gdagnesses007@gmail.com';
+createdBy.innerHTML += ' Guillermo Dagnesses Segura';
 
 // Crear una clase denominada 'ToDo' cuyo constructor debe recibir un único parámetro del tipo string
 // con el nombre 'description' que será justamente la descripción del ToDo.
