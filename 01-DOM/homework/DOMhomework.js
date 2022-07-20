@@ -8,7 +8,8 @@ const toDoItems = [];
 // agregar tu nombre al final del texto actual. Ej: 'Aplicación creada por Franco'
 // Tu código acá:
 
-
+const createdBy = document.querySelector('#createdBy');
+createdBy.innerHTML += ' gdagnesses007@gmail.com';
 
 // Crear una clase denominada 'ToDo' cuyo constructor debe recibir un único parámetro del tipo string
 // con el nombre 'description' que será justamente la descripción del ToDo.
@@ -22,9 +23,6 @@ function ToDo(description) {
 
   this.description = description;
   this.complete = false;
-
-  const createdBy = document.querySelector('#createdBy');
-  createdBy.innerHTML += ' gdagnesses007@gmail.com';
 }
 
 
